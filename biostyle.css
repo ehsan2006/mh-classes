@@ -1,0 +1,229 @@
+
+@keyframes blink {
+    0% {    text-shadow: 5px 5px 0px red, 
+        10px 10px 0px orange, 
+        15px 15px 0px yellow, 
+        20px 20px 0px rgb(3, 201, 3), 
+        25px 25px 0px green, 
+        30px 30px 0px cyan, 
+        35px 35px 0px blue, 
+        40px 40px 0px rgb(158, 0, 158), 
+        45px 45px 0px rgb(94, 0, 94);}
+    12.5% {    text-shadow: 5px 5px 0px rgb(94, 0, 94), 
+        10px 10px 0px red, 
+        15px 15px 0px orange, 
+        20px 20px 0px yellow, 
+        25px 25px 0px rgb(3, 201, 3), 
+        30px 30px 0px green, 
+        35px 35px 0px cyan, 
+        40px 40px 0px blue, 
+        45px 45px 0px rgb(158, 0, 158);}
+    25% {    text-shadow: 5px 5px 0px rgb(158, 0, 158), 
+        10px 10px 0px rgb(94, 0, 94), 
+        15px 15px 0px red, 
+        20px 20px 0px orange, 
+        25px 25px 0px yellow, 
+        30px 30px 0px rgb(3, 201, 3), 
+        35px 35px 0px green, 
+        40px 40px 0px cyan, 
+        45px 45px 0px blue;}
+    37.5% {    text-shadow: 5px 5px 0px blue, 
+        10px 10px 0px rgb(158, 0, 158), 
+        15px 15px 0px rgb(94, 0, 94), 
+        20px 20px 0px red, 
+        25px 25px 0px orange, 
+        30px 30px 0px yellow, 
+        35px 35px 0px rgb(3, 201, 3), 
+        40px 40px 0px green, 
+        45px 45px 0px cyan;}
+    50% {    text-shadow: 5px 5px 0px cyan, 
+        10px 10px 0px blue, 
+        15px 15px 0px rgb(158, 0, 158), 
+        20px 20px 0px rgb(94, 0, 94), 
+        25px 25px 0px red, 
+        30px 30px 0px orange, 
+        35px 35px 0px yellow, 
+        40px 40px 0px rgb(3, 201, 3), 
+        45px 45px 0px green;}
+    62.5% {    text-shadow: 5px 5px 0px green, 
+        10px 10px 0px cyan, 
+        15px 15px 0px blue, 
+        20px 20px 0px rgb(158, 0, 158), 
+        25px 25px 0px rgb(94, 0, 94), 
+        30px 30px 0px red, 
+        35px 35px 0px orange, 
+        40px 40px 0px yellow, 
+        45px 45px 0px rgb(3, 201, 3);}
+    75% {    text-shadow: 5px 5px 0px rgb(3, 201, 3), 
+        10px 10px 0px green, 
+        15px 15px 0px cyan, 
+        20px 20px 0px blue, 
+        25px 25px 0px rgb(158, 0, 158), 
+        30px 30px 0px rgb(94, 0, 94), 
+        35px 35px 0px red, 
+        40px 40px 0px orange, 
+        45px 45px 0px yellow;
+    }
+    87.5% {    text-shadow: 5px 5px 0px yellow, 
+        10px 10px 0px rgb(3, 201, 3), 
+        15px 15px 0px green, 
+        20px 20px 0px cyan, 
+        25px 25px 0px blue, 
+        30px 30px 0px rgb(158, 0, 158), 
+        35px 35px 0px rgb(94, 0, 94), 
+        40px 40px 0px red, 
+        45px 45px 0px orange;
+    }
+    100% {    text-shadow: 5px 5px 0px orange, 
+        10px 10px 0px yellow, 
+        15px 15px 0px rgb(3, 201, 3), 
+        20px 20px 0px green, 
+        25px 25px 0px cyan, 
+        30px 30px 0px blue, 
+        35px 35px 0px rgb(158, 0, 158), 
+        40px 40px 0px rgb(94, 0, 94), 
+        45px 45px 0px red;
+    }
+}
+@keyframes alert{
+    0% {color:black;}
+    50% {color:red;font-size: 21px;}
+    100% {color:black;}
+}
+@font-face{
+    font-family: Lalezar-Regular;
+    src: url(Lalezar-Regular.ttf);
+}
+@font-face{
+    font-family:Vazir;
+    src: url(Vazir.ttf);
+}
+body{
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+}
+h1{
+    animation: blink 1s infinite;
+    font-size: 160px;
+    text-align: center;
+      color: #ffe6db;
+      height: 300px;
+         font-family: 'Niconne', cursive;
+      font-weight: 700;
+      background-color: rgba(255, 255, 255, 0.322);
+      border-radius: 10px;
+      margin: 10px;
+}
+a{
+    font-family: sans-serif;
+}
+p{
+    direction: rtl;
+    font-family:Vazir;
+    font-size: 20px;
+}
+h2{
+    direction: rtl;
+    font-family: Lalezar-Regular;
+    font-size: 33px;
+    text-shadow: 0 0 25px rgb(112, 64, 0);
+
+}
+section{
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffe6db;
+}
+footer{
+    background-color: rgb(112, 64, 0);
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px;
+}
+div{
+    color: white;
+    font-family:Vazir;
+}
+.link{
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, rgba(104, 127, 255, 0.623) 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: rgb(109, 40, 0);
+    font-size: 1.75em;
+    line-height: 1.15em;
+    text-decoration: none;
+    transition: background-position 0.3s ease-out;
+    margin: 20px;
+}
+.link:hover{
+    background-position: -99.99% 0;
+}
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    width: 450px;
+    margin-left: 300px;
+    font-size: 15px;
+    line-height: 20px;
+   color: #a67f59;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.ex1{
+    color: #2f9c0a;
+}
+.important{
+    animation: alert 1.5s infinite;
+}   
+
+@media (min-width: 481px) and (max-width: 767px) { 
+ .link{
+     font-size: 10px;
+     width: 150px;
+     margin-left: 10px;
+ }
+   footer{
+     font-size: 15px;
+ }
+    pre code{
+        margin-left: -5px;
+        width: 400px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+ .link{
+     font-size: 15px;
+     width: 150px;
+     margin-left: 10px;
+ }
+  pre code{
+        margin-left: 100px;
+        font-size: 15px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    
+}
+img {
+    width: 500px;
+    margin-left:30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+img:hover{
+    margin-left: 10%;
+    width: 900px;
+    box-shadow: 13px 13px 17px rgba(0, 0, 0, 0.5);
+
+}
