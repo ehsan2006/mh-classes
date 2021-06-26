@@ -98,6 +98,10 @@
     font-family:Vazir;
     src: url(Vazir.ttf);
 }
+@font-face{
+    font-family: comic;
+    src: url(comic.ttf);
+}
 body{
     background-image: url("bg.jpg");
     background-repeat: repeat;
@@ -108,7 +112,7 @@ h1{
     text-align: center;
       color: #ffe6db;
       height: 300px;
-         font-family: 'Niconne', cursive;
+      font-family: comic;
       font-weight: 700;
       background-color: rgba(255, 255, 255, 0.322);
       border-radius: 10px;
