@@ -1,0 +1,115 @@
+
+@keyframes blink {
+    0% {background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(247, 0, 255), orange);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+    25% {background: -webkit-linear-gradient(orange, rgb(255, 0, 0), rgb(247, 0, 255));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+    50% {background: -webkit-linear-gradient(rgb(247, 0, 255), orange, red);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+    100% {background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(247, 0, 255), orange);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+}
+@keyframes alert{
+    0% {color:black;}
+    50% {color:red;font-size: 21px;}
+    100% {color:black;}
+}
+@font-face{
+    font-family: Lalezar-Regular;
+    src: url(Lalezar-Regular.ttf);
+}
+@font-face{
+    font-family:Vazir;
+    src: url(Vazir.ttf);
+}
+body{
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+}
+h1{
+    font-size: 72px;
+    animation: blink 3s infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 50px;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-shadow: 0 0 50px rgba(255, 255, 0, 0.637);
+}
+a{
+    font-family: sans-serif;
+}
+p{
+    direction: rtl;
+    font-family:Vazir;
+    font-size: 20px;
+}
+h2{
+    direction: rtl;
+    color: rgb(97, 3, 3);
+    font-family: Lalezar-Regular;
+    font-size: 33px;
+    text-shadow: 0 0 30px blue;
+
+}
+section{
+    border-style: double;
+    border-radius: 10px;
+    border-width: 7px;
+    padding: 20px;
+    margin: 14px;
+    background-color: rgb(77, 189, 43);
+}
+footer{
+    background-color: rgb(0, 34, 128);
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px;
+}
+div{
+    color: white;
+    font-family:Vazir;
+}
+.link{
+    margin-left: 60px;
+    font-size: 18px;
+    transition: all 0.5s;
+    font-family:Vazir;
+}
+.link:hover{
+    letter-spacing: 3px;
+}
+.ex1{
+    color: #2f9c0a;
+}  
+
+@media (min-width: 481px) and (max-width: 767px) { 
+ .link{
+     font-size: 10px;
+     width: 150px;
+     margin-left: 10px;
+ }
+    pre code{
+        margin-left: -5px;
+        width: 400px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+ .link{
+     font-size: 15px;
+     width: 150px;
+     margin-left: 10px;
+ }
+  pre code{
+        margin-left: 100px;
+        font-size: 15px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    
+}
